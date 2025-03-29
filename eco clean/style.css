@@ -1,0 +1,97 @@
+/* Algemene reset om alle browsers gelijk te krijgen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body en algemene opmaak */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigatie */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+nav ul li a:hover, .active {
+    background-color: #4CAF50;
+}
+
+/* Home sectie */
+.home {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Moodboard afbeelding */
+.moodboard {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.moodboard img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Producten sectie */
+.producten {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Contact sectie */
+.contact {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Over Ons sectie */
+.over-ons {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
